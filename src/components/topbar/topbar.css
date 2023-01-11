@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+background-color: #1877f2;
+padding: 1em;
+position: sticky;
+top: 0px;
+z-index: 999;
+}
+.container .left-side{
+    margin-left: 2em;
+    gap: 18rem;
+    display: flex;
+}
+.container .left-side .left-side-name .name-of-app{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 0.07em;
+}
+.container .left-side .left-side-search{
+    display: flex;
+    background-color: white;
+    border: 1px solid rgb(249, 249, 249);
+    border-radius: 20px;
+ width:30em;
+}
+.container .left-side .left-side-search .search-icon{
+    margin-left: 10px;
+    margin-top: 7px;
+    height: 20px;
+}
+.container .left-side .left-side-search .input-for-search{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.05em;
+    width:90%;
+    border: 0;
+}
+.container .left-side .left-side-search .input-for-search:focus{
+    outline: none;
+    letter-spacing: 0.1em;
+}
+.container .home-timeline{
+    
+   display: flex;
+   gap: 0.7rem;
+   margin-left: 12px;
+margin-top: 10px;
+}
+.container .home-timeline a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+cursor: pointer;
+    letter-spacing: 0.07em;
+}
+.container .icons{
+    margin-top: 6px;
+    margin-left: 3em;
+    display: flex;
+   gap: 1.3rem;
+    position: relative;
+
+}
+
+.container .icons .person{
+    padding: 4px;
+    background-color: red;
+    border-radius: 50%;
+    position:absolute;
+    left: 15px;
+    bottom: 18px;
+    font-size: 10px;
+    
+  
+}
+.container .icons .person2{
+    padding: 4px;
+    background-color: red;
+    border-radius: 50%;
+    position:absolute;
+    left: 64px;
+    bottom: 18px;
+    font-size: 10px;
+    
+  
+}
+.container .icons .person3{
+    padding: 4px;
+    background-color: red;
+    border-radius: 50%;
+    position:absolute;
+    left: 105px;
+    bottom: 18px;
+    font-size: 10px;
+    
+  
+}
+
+
+
+
+.container .profile .profile-image{
+    height: 32px;
+    width: 32px;
+  border-radius: 50%;
+  margin-left: 100px;
+  object-fit: cover;
+  cursor: pointer;
+
+}
+

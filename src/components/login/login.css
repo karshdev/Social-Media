@@ -1,0 +1,74 @@
+
+.logincontainer{
+    display: flex;
+    height: 50vh;
+    gap: 23rem;
+
+    margin-top: 15%;
+    margin-left:  5%;
+}
+.nameinfo{
+    max-width: 270px;
+   margin-left: 20px;
+    letter-spacing: 0.07em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.name{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: #1775ee;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.form{
+background-color: white;
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+  margin-bottom: 20px;
+}
+.form input{
+   width: 300px;
+   height: 20px;
+   padding: 10px;
+   border-radius: 4px;
+   border: 1px solid gray;
+}
+.form .password{
+    margin-top: 20px;
+}
+.form input:focus{
+    outline: none;
+}
+.form .loginbutton{
+    width: 320px;
+    height:34px;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #1775ee;
+    border: none;
+    letter-spacing: 0.09em;
+    font-size: 15px;
+    border-radius: 2px;
+}
+.form .forgotpassword{
+    margin-left: 100px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #1775ee;
+}
+.form .newaccountbutton{
+    margin-top:20px;
+    width: 220px;
+    height:38px;
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+    background-color: limegreen;
+    border: none;
+    letter-spacing: 0.09em;
+    font-size: 15px;
+    border-radius: 10px;
+}
